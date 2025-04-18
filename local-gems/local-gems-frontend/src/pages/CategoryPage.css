@@ -1,0 +1,65 @@
+.category-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .category-list button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .category-list button:hover {
+    background-color: #2980b9;
+  }
+  
+  .gem-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gem-card {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .gem-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .gem-card a {
+    display: block;
+    margin-top: 10px;
+    color: #2980b9;
+  }
+  
+  .gem-card button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .gem-card button:hover {
+    background-color: #43a047;
+  }
+  

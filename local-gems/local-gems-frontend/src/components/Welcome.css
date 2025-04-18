@@ -1,0 +1,58 @@
+.welcome-container {
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+  }
+  
+  .button-group {
+    margin-top: 30px;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e68900;
+  }
+  
+  .register-options {
+    margin-top: 25px;
+  }
+  
+  .btn-small {
+    padding: 8px 20px;
+    margin: 0 8px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-small:hover {
+    background-color: #3e8e41;
+  }
+  
